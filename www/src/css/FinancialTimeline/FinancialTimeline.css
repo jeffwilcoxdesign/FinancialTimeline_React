@@ -1,0 +1,40 @@
+#React-FinancialTimeline {
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	position: absolute;
+    min-height: 300px;
+    width: 100%;
+}  
+.timeline-outsideContainer {
+	position: absolute;
+    left: 50%;
+    width: 400px;
+    top: 55%;
+}
+.timeline-insideContainer {
+	position: relative;
+	left: -50%;
+}
+h4 {
+	font-weight: 200;
+	text-align: center;
+	color: #666;
+	font-size: 1.3em;
+}
+.timeline-measureBg {
+	height: 20px;
+	width: 400px;
+	border-radius: 1px;
+	position: absolute;
+	top: 0;
+	box-shadow: 0 0 0pt 5px lightgrey;
+}
+.timeline-measureFilled {
+	background-color: cornflowerblue;
+	height: 20px;
+	max-width: 400px;
+}
+.timeline-titleAmount {
+	font-weight: 400;
+	font-family: Georgia, Serif;
+	color: #000;
+}
